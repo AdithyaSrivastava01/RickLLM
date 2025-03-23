@@ -164,7 +164,7 @@ def main():
 
     print("Pushing to hub...")
     cleaned_dataset.push_to_hub(
-        "theneuralmaze/rick-and-morty-transcripts-sharegpt",
+        "AdithyaSrivastava01/rick-and-morty-transcripts-sharegpt",
         token=os.getenv("HUGGINGFACE_TOKEN"),
     )
     print("Done!")

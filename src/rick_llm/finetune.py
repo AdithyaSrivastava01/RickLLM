@@ -20,7 +20,7 @@ def main():
 
     # Push to hub
     model.push_to_hub_gguf(
-        "theneuralmaze/RickLLama-3.1-8B",
+        "AdithyaSrivastava01/RickLLM",
         tokenizer,
         token=os.getenv("HUGGINGFACE_TOKEN"),
     )
